@@ -9,9 +9,9 @@
 sed -i "s/db_server/$DATABASE_SERVER/g" ${CATALINA_HOME}/sakai/local.properties
 # ENV SAKAI_DATABASE sakai
 sed -i "s/db_schema/$DATABASE/g" ${CATALINA_HOME}/sakai/local.properties
-# ENV SAKAI_DATABASE_USER SAKAI
+# ENV SAKAI_DATABASE_USER sakai
 sed -i "s/db_user/$DATABASE_USER/g" ${CATALINA_HOME}/sakai/local.properties
-# ENV SAKAI_DATABASE_PASSWORD sakaipassword
+# ENV SAKAI_DATABASE_PASSWORD sakai201
 sed -i "s/db_password/$DATABASE_PASSWORD/g" ${CATALINA_HOME}/sakai/local.properties
 
 # Add context option
